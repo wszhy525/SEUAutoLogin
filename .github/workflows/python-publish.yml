@@ -28,4 +28,4 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: do report
       run: |
-        python ./dayReport.py -u ${{ secrets.CARD_NUM1 }} -p ${{ secrets.PASSWORD1 }}
+        python ./dayReport.py -u ${{ secrets.CARD_NUM_ZHU }} -p ${{ secrets.PASSWORD_ZHU }}
